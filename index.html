@@ -18,46 +18,46 @@
                 <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
                 <p class="mb-4 ">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core GPU, and 16-core Neural Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English</p>
                 <h6 class="mt-4 fw-bold">Memory</h6>
-                <button id="memorybutton1" class="btn btn-outline-dark">8gb unified memory</button>
-                <button id="memorybutton" class="btn btn-outline-dark"> 8gb unified memory</button>
+                <button id="memory-8gb"  type="button" class="btn btn-outline-dark">8gb unified memory</button>
+                <button id="memory-16gb"  type="button" class="btn btn-outline-dark"> 16gb unified memory</button>
                 <h6 class="mt-4 fw-bold">Storage</h6>
-                <button id="storagebutton1"  class="btn btn-outline-dark">256gb SSD storage</button>
-                <button id="storagebutton" class="btn btn-outline-dark">512gb SSD storage</button>
-                <button id="storagebutton2" class="btn btn-outline-dark">1TB SSD storage</button>
+                <button id="storage-256gb"  type="button"  class="btn btn-outline-dark">256gb SSD storage</button>
+                <button id="storage-512gb"  type="button" class="btn btn-outline-dark">512gb SSD storage</button>
+                <button id="storage-1tb"  type="button" class="btn btn-outline-dark">1TB SSD storage</button>
                 <h6 class="mt-4 fw-bold">Choose your delivery option</h6>
-                <button id="deliverybutton1" class="btn btn-outline-dark">Friday,Aug 25 FREE Prime Delivery</button>
-                <button id="deliverybutton" class="btn btn-outline-dark">Friday,Aug 21 delivery charge $20</button>
+                <button id="prime-delivery"  type="button" class="btn btn-outline-dark">Friday,Aug 25 FREE Prime Delivery</button>
+                <button id="fast-delivery"  type="button" class="btn btn-outline-dark">Friday,Aug 21 delivery charge $20</button>
                 <div class="row g-0 mt-3">
                     <div class="col-sm-6 col-md-6">
                         <div class="row border-bottom">
                             <div class="col col-md-9"><h6 class="mt-4 fw-bold">Best Price</h6></div>
-                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="bestprice">1299</span></h6></div>
+                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="basic-price">1299</span></h6></div>
                         </div>
                         <div class="row border-bottom">
                             <div class="col col-md-9"><h6 class="mt-4 fw-bold">Extra Memory Cost</h6></div>
-                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="memory">0</span></h6></div>
+                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="memory-price">0</span></h6></div>
                         </div>
                         <div class="row border-bottom">
                             <div class="col col-md-9"><h6 class="mt-4 fw-bold">Extra Storage Cost</h6></div>
-                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="storage">0</span></h6></div>
+                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="storage-price">0</span></h6></div>
                         </div>
                         <div class="row border-bottom">
                             <div class="col col-md-9"><h6 class="mt-4 fw-bold">Delivery charge</h6></div>
-                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="delivery">0</span></h6></div>
+                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="delivery-price">0</span></h6></div>
                         </div>
                         <div class="row border-bottom">
                             <div class="col col-md-9"><h6 class="mt-4 fw-bold">Total Price</h6></div>
-                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="total">1299</span> </h6></div>
+                            <div class="col col-md-3"><h6 class="mt-4 fw-bold">$ <span id="basic-subtotal">1299</span> </h6></div>
                         </div>
-                        <h6 class="pt-5 fw-bold">Add Discount code</h6>
-                        <nav class="navbar navbar-expand navbar-light">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                              <form class="d-flex">
-                                <input class="form-control" type="search" placeholder="Code" aria-label="Search">
-                                <button class="btn input-group-text bg-danger text-white" type="submit">Apply</button>
-                              </form>
-                            </div>
-                        </nav>
+                        <div class="my-4 w-50">
+                          <p class="mb-1 fw-bold">Add Promo Code</p>
+                          <div class="input-group mb-3">
+                            <input id="promo-code" type="text" class="form-control" placeholder="Code" />
+                            <button class="btn input-group-text bg-danger text-white" id="promo-code-click">
+                              Apply
+                            </button>
+                          </div>
+                        </div>
                     </div>
                     <div class="col-6 col-4"></div>
                 </div>
